@@ -5,7 +5,7 @@ orientation = (y2 - y1)*(x3 - x2) - (y3 - y2)*(x2 - x1)
 
 orientation > 0: Clockwise orientation
 orientation < 0: Counterclockwise orientation
-orientation = 0: Colinear orientation
+orientation = 0: Collinear orientation
 
 """
 
@@ -65,7 +65,7 @@ def getOrientation(point1, point2, point3):
 
     else:
 
-        return "Colinear orientation"
+        return "Collinear orientation"
 
 
 if __name__ == "__main__":
